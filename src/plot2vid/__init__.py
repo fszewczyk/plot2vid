@@ -4,6 +4,8 @@ import cv2
 import numpy as np
 import math
 
+__version__ = "1.0.2"
+
 
 class PlotRecorder():
     def __init__(self, destination: str, fps=30):
@@ -45,24 +47,3 @@ class PlotRecorder():
         image = cv2.cvtColor(image, cv2.COLOR_RGBA2BGR)
 
         return image
-
-
-recorder = PlotRecorder("out.mp4")
-fig = plt.figure()
-
-for i in range(90):
-    # Setting the plot limits
-    plt.xlim(0, 100)
-    plt.ylim(0, 100)
-
-    # Plotting
-    plt.scatter([i], [i])
-
-    # Recording the frame
-    recorder.add(fig)
-
-    # Clearing the plot
-    plt.clf()
-
-# Storing the result
-recorder.close()

@@ -13,15 +13,16 @@ pip install plot2vid
 ## Basic Usage
 
 ```python
-from plot2vid import plot2vid
+from plot2vid import PlotRecorder
+import matplotlib.pyplot as plt
 
 # Setup
-recorder = plot2vid.PlotRecorder("out.mp4")
+recorder = PlotRecorder("out.mp4")
 fig = plt.figure()
 
 for i in range(90):
     # Setting the plot limits
-    plt.xlim(0,10000)
+    plt.xlim(0,100)
     plt.ylim(0,100)
 
     # Plotting
