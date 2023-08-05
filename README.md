@@ -37,6 +37,12 @@ for i in range(90):
 # Storing the result
 recorder.close()
 ```
+The above code creates this video.
+
+
+https://github.com/fszewczyk/plot2vid/assets/60960225/8b385a17-1650-4faa-88dc-5de8890d6de4
+
+
 
 ## Advanced Usage
 
