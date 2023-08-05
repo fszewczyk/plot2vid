@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "plot2vid"
-version = "1.0.2"
+version = "1.0.3"
 description = "The easiest way to create animations using plots."
 readme = "README.md"
 authors = [{ name = "Franciszek Szewczyk", email = "szewczyk.franciszek02@gmail.com" }]
