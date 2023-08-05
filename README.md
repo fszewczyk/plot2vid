@@ -39,14 +39,12 @@ recorder.close()
 ```
 The above code creates this video.
 
-
-https://github.com/fszewczyk/plot2vid/assets/60960225/8b385a17-1650-4faa-88dc-5de8890d6de4
-
+![ezgif-5-c21b239e33](https://github.com/fszewczyk/plot2vid/assets/60960225/5c7388aa-d955-46ff-b588-7bec7a4794b3)
 
 
 ## Advanced Usage
 
-You can change different settings of the recorder.
+You can change the different settings of the recorder.
 
 ```python
 recorder = plot2vid.PlotRecorder("out.mp4", fps=20)
